@@ -1,0 +1,90 @@
+/* Používáme intuitivní výpočet rozměrů prvků. */
+
+:root {
+  --primary-color: rgb(16, 16, 223);
+  --secondary-color: rgb(34, 194, 34);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 3rem;
+  background-color: var(--primary-color);
+}
+
+.container {
+  max-width: 40rem;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid var(--primary-color);
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 3rem;
+}
+
+h1 {
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+#email__conversion {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.email__conversion--firstname,
+.email__conversion--surname {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  cursor: pointer;
+}
+
+input {
+  height: 2rem;
+  width: 400px;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+}
+
+#button-submit {
+  width: 160px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+}
+
+#button-submit:hover {
+  background-color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  padding: 0.6rem;
+}
+
+.email__result {
+  margin-top: 2rem;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+}
+
+.paragraph span {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
