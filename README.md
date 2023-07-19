@@ -10,4 +10,4 @@ Pomocí metody trim zajistěte, že ve jméně ani příjmení nebudou na začá
 Pomocí metody slice vyřízněte ze jména i příjmení příslušné části.
 Pomocí interpolace řetězců sestavte výslednou adresu a vypište ji do stránky.
 
-<strong>Used methods: String.normalize(), String.replace(), String.trim(), String.slice(), String.toLowerCase()</strong>
+<strong>Used methods:</strong> String.normalize(), String.replace(), String.trim(), String.slice(), String.toLowerCase()
